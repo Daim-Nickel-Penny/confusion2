@@ -4,7 +4,7 @@ import { Card, CardImg, CardBody, CardText, CardTitle } from 'reactstrap';
 class Dishdetail extends Component {
 
     renderComments(comments) {
-        if (comments == null) {
+        if (comments === null) {
             return (<div></div>)
         }
         const cmnts = comments.map(comment => {
